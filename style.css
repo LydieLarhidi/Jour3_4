@@ -213,14 +213,6 @@ footer{
     width:100%
 }
 
-aside.quote{
-    background:var(--rose);
-    color:var(--plum);
-    padding:1.5rem 2rem;
-    margin:2rem 0;
-    border-left:6px solid var(--coral);
-    font-size:1.3rem
-}
 
 .team{
     display:flex;
@@ -275,7 +267,12 @@ label{
 }
 
 input,select{
-    padding:.6rem;border:2px solid var(--rose);border-radius:8px;font:inherit}
+    padding:.6rem;
+    border:2px solid var(--rose);
+    border-radius:8px;
+    font:inherit
+}
+
 .check{
     flex-direction:row;
     align-items:center;
