@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomPetals - Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="realisations.html">Realisations</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <li><input type="search" placeholder="Rechercher" aria-label="Rechercher"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact</h1>
+        <p class="into">Vous avez une question ? Ecrivez-nous et notre equipe s'occupera de vous repondre.</p>
+        <form>
+            <label for="civilite"> Civilité
+                <select id="civilite" name="civilite" required>
+                    <option value="">Choisir</option>
+                    <option>Madame</option>
+                    <option>Monsieur</option>
+                    <option>Autre</option>
+
+                </select>
+            </label>
+
+            <label for="nom">Nom<input type="text" id="nom" name="nom"></label>
+            <label for="prenom">Prenom<input type="text" id="prenom" name="prenom"></label>
+            <label for="adresse">Adresse postale<input type="text" id="adresse" name="adresse"></label>
+            <label class="check" for="rgpd"><input type="checkbox" id="rgpd" name="rgpd">Je valide la politique de confidentialité de BloomPetals.</label>
+            <button type="submit">Valider</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <p>Footer BloomPetals</p>
+    </footer>
+</body>
+</html>
